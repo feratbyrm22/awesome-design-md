@@ -1,0 +1,3 @@
+# Büyük video dosyaları git'e girmez (Drive / dosya olarak teslim edilir)
+*.mp4
+projeler/*/onizleme/still_*.jpg
