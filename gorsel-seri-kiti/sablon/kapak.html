@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><title>Kapak şablonu</title>
+<style>
+/* stil.md A bölümü = buradaki değişkenler. Renk/yazı kararı yalnız burada değişir. */
+:root{--zemin:#14161A;--metin:#fff;--ikincil:#B8BCC4;--vurgu:#FFC400;
+--font:'Inter',system-ui,sans-serif;--kenar:64px;--baslik:96px;}
+*{box-sizing:border-box;margin:0}
+.kapak{width:1280px;height:720px;background:var(--zemin);color:var(--metin);font-family:var(--font);
+position:relative;overflow:hidden;display:flex;padding:var(--kenar);gap:48px;align-items:flex-end}
+.blok{flex:1 1 55%;min-width:0;display:flex;flex-direction:column;gap:24px}
+.baslik{font-size:var(--baslik);font-weight:800;line-height:1.05;letter-spacing:-.01em;overflow-wrap:anywhere}
+.baslik b{color:var(--vurgu);font-weight:800}
+.alt{font-size:36px;font-weight:500;color:var(--ikincil);line-height:1.2}
+.cip{align-self:flex-start;font-size:28px;font-weight:800;color:#14161A;background:var(--vurgu);padding:6px 18px;border-radius:6px}
+.gorsel{flex:0 0 45%;align-self:stretch;margin:calc(var(--kenar)*-1) calc(var(--kenar)*-1) calc(var(--kenar)*-1) 0;
+background:#2a2e36 center/cover no-repeat}
+/* varyantlar (stil.md C) */
+.kapak.m-uzun{--baslik:80px}
+.kapak.m-gorselsiz .blok{flex-basis:100%;justify-content:center;align-self:stretch;border-left:8px solid var(--vurgu);padding-left:40px}
+</style></head><body style="margin:0">
+<!-- DÜZENLENEBİLİR: metinleri doğrudan değiştir. Görselsizse .gorsel div'ini sil ve class'a m-gorselsiz ekle. -->
+<div class="kapak">
+  <div class="blok">
+    <span class="cip">ETİKET</span>
+    <h1 class="baslik">Başlık buraya, <b>vurgu</b> kelime</h1>
+    <p class="alt">Tek satırlık alt metin</p>
+  </div>
+  <div class="gorsel"></div>
+</div>
+</body></html>
