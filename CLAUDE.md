@@ -68,3 +68,8 @@ Liste ve kullanım alanları: `ARACLAR.md`. Video/reel/geçiş/edit işinde önc
 - Ekran görüntüsü kontrolünü 1x ölçekte, tek seferde yap.
 - Alt-ajan (Agent) açma; kullanıcı istemedikçe.
 - Büyük HTML'i yeniden yazma; küçük değişikliği `edits` ile gönder.
+
+## 8. Kapsam
+
+Bu proje sadece @icmimar.ferhat Instagram/tasarım işi. Ozon.ru konusu ayrı sohbette; burada hiç açma.
+Hedef: yüz göstermeden, video çekmeden, kullanıcıdan minimum zaman alarak algoritmayı büyütmek.
