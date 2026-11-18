@@ -39,8 +39,32 @@ Display font: <name>
 Mono/code font: <name>
 ```
 
-(Currently unset — no fixed identity has been chosen yet. Until it is, follow the exploration method in §2 for anything new.)
+Seçilen kimlik — @icmimar.ferhat "2+3 hibrit" (Beton Brütalist + İsviçre Grid):
+
+```
+Base background: #ECEFF0 (soğuk beyaz pafta) · paper-2 #E2E6E8
+Ink: #101216 · ink-2 #4A4F57 · rule #C3C9CE
+Çizim/link: ultramarin #2434D6
+Tek vurgu: lime #D6FF3D (sadece bir "durak" noktası)
+Display: Inter 900 küçük harf, sıkı negatif tracking; başlıkta 600/300 ağırlık kontrastı
+Mono: JetBrains Mono, büyük harf, açık tracking
+Dil: kesit A-A, 1/50, ±0.00 / +2.80, ölçü çizgisi, antet
+Carousel: 4:5, sol altta kullanıcı fotoğrafı, son slayt beğen/kaydet/paylaş/DM
+```
+Bu stil onaylıdır; aynı seri için tekrar 5 yön üretme.
 
 ## 5. When given a moodboard
 
 If the user pastes a screenshot of a site/app/video they like instead of describing colors and fonts, treat that as the brief: extract the typographic spirit, spacing balance, and color atmosphere from the image, then still produce 5 distinct directions referencing it — don't just clone it 1:1.
+
+## 6. Kayıtlı video/reel/edit repoları
+
+Liste ve kullanım alanları: `ARACLAR.md`. Video/reel/geçiş/edit işinde önce oraya bak.
+
+## 7. Token tasarrufu (kullanıcı telefondan çalışıyor)
+
+- Cevaplar kısa, Türkçe, madde madde; gereksiz özet/tekrar yok.
+- Dosyanın tamamını okuma; `grep`/`sed -n` ile sadece gereken kısmı.
+- Ekran görüntüsü kontrolünü 1x ölçekte, tek seferde yap.
+- Alt-ajan (Agent) açma; kullanıcı istemedikçe.
+- Büyük HTML'i yeniden yazma; küçük değişikliği `edits` ile gönder.
